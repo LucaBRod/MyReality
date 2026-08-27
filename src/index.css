@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fredoka One', cursive;
+  --font-body: 'Nunito', sans-serif;
+}
+
+* {
+  font-family: var(--font-body);
+}
+
+body {
+  background-color: #1e1b2e;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Hide scrollbar but allow scrolling */
+::-webkit-scrollbar { display: none; }
+* { scrollbar-width: none; }
